@@ -24,38 +24,30 @@ limitations under the License.
 
 > Create a [regular expression][regexp] from a [regular expression][regexp] string.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-regexp-from-string
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-reFromString = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-regexp-from-string@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var reFromString = require( 'path/to/vendor/umd/utils-regexp-from-string/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-regexp-from-string@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.reFromString;
-})();
-</script>
+var reFromString = require( '@stdlib/utils-regexp-from-string' );
 ```
 
 #### reFromString( str )
@@ -101,13 +93,8 @@ var re = reFromString( '/beep/' );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-regexp-from-string@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var reFromString = require( '@stdlib/utils-regexp-from-string' );
 
 var re = reFromString( '/beep/' );
 // returns /beep/
@@ -132,11 +119,6 @@ re = reFromString( '/(?:beep|boop)/' );
 
 re = reFromString( '/\\w+/' );
 // returns /\w+/
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -177,7 +159,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
