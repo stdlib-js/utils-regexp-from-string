@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var isRegExp = require( '@stdlib/assert-is-regexp' );
 var pkg = require( './../package.json' ).name;
 var reFromString = require( './../lib' );
