@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import reFromString from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-regexp-from-string@esm/index.mjs';
+import reFromString from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-regexp-from-string@v0.2.1-esm/index.mjs';
 ```
 
 #### reFromString( str )
@@ -94,7 +94,7 @@ var re = reFromString( '/beep/' );
 <body>
 <script type="module">
 
-import reFromString from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-regexp-from-string@esm/index.mjs';
+import reFromString from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-regexp-from-string@v0.2.1-esm/index.mjs';
 
 var re = reFromString( '/beep/' );
 // returns /beep/
