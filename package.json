@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-regexp-from-string",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Create a regular expression from a regular expression string.",
   "license": "Apache-2.0",
   "author": {
@@ -38,9 +38,9 @@
   },
   "dependencies": {
     "@stdlib/assert-is-string": "^0.2.1",
-    "@stdlib/regexp-regexp": "^0.2.1",
-    "@stdlib/string-format": "^0.2.1",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
+    "@stdlib/regexp-regexp": "^0.2.2",
+    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-regexp": "^0.2.1",
