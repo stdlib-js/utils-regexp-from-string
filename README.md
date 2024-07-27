@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import reFromString from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-regexp-from-string@deno/mod.js';
+import reFromString from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-regexp-from-string@v0.2.2-deno/mod.js';
 ```
 
 #### reFromString( str )
@@ -89,7 +89,7 @@ var re = reFromString( '/beep/' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import reFromString from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-regexp-from-string@deno/mod.js';
+import reFromString from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-regexp-from-string@v0.2.2-deno/mod.js';
 
 var re = reFromString( '/beep/' );
 // returns /beep/
