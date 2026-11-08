@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-21)
+## Unreleased (2026-11-08)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`a3ef833`](https://github.com/stdlib-js/stdlib/commit/a3ef8332fc0b02f15802a6edb81df0ede5457fc6) - add support for `d`, `s`, `u`, and `v` regexp flags [(#16543)](https://github.com/stdlib-js/stdlib/pull/16543)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="issues">
 
@@ -24,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`a3ef833`](https://github.com/stdlib-js/stdlib/commit/a3ef8332fc0b02f15802a6edb81df0ede5457fc6) - **fix:** add support for `d`, `s`, `u`, and `v` regexp flags [(#16543)](https://github.com/stdlib-js/stdlib/pull/16543) _(by Rajan Pantha)_
 -   [`0b7dd1b`](https://github.com/stdlib-js/stdlib/commit/0b7dd1b416ede5ee30931e75b88b24a323d3307b) - **chore:** fix JavaScript lint errors [(#10929)](https://github.com/stdlib-js/stdlib/pull/10929) _(by Kahfi Elhady)_
 
 </details>
@@ -36,9 +47,10 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Kahfi Elhady
+-   Rajan Pantha
 
 </section>
 
